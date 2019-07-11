@@ -1,0 +1,196 @@
+﻿<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition">
+	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">FBReports.rdlx</dd:Name>
+	<Body>
+		<Height>29.7cm</Height>
+		<ReportItems>
+			<FixedPage Name="FixedPage1">
+				<Pages>
+					<Page>
+						<ReportItems>
+							<Textbox Name="TextBox1">
+								<Height>0.75cm</Height>
+								<Left>3.4cm</Left>
+								<Value>=Fields!NAME.Value</Value>
+								<Style>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+								</Style>
+								<Top>3.8cm</Top>
+								<Width>2.5cm</Width>
+								<ZIndex>1</ZIndex>
+							</Textbox>
+							<Textbox Name="TextBox2">
+								<Height>0.75cm</Height>
+								<Left>6.561666cm</Left>
+								<Value>=Fields!BIRTHDAY.Value</Value>
+								<Style>
+									<Calendar>Japanese</Calendar>
+									<Format>gggyy</Format>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+								</Style>
+								<Top>3.836458cm</Top>
+								<Width>4.4383cm</Width>
+								<ZIndex>2</ZIndex>
+							</Textbox>
+							<Textbox Name="TextBox3">
+								<DataElementName>TextBox2</DataElementName>
+								<Height>0.75cm</Height>
+								<Left>6.561666cm</Left>
+								<Value>=Fields!BIRTHDAY.Value</Value>
+								<Style>
+									<Calendar>Japanese</Calendar>
+									<Format>MM</Format>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+								</Style>
+								<Top>5.132916cm</Top>
+								<Width>4.4383cm</Width>
+								<ZIndex>2</ZIndex>
+							</Textbox>
+							<Textbox Name="TextBox4">
+								<DataElementName>TextBox2</DataElementName>
+								<Height>0.75cm</Height>
+								<Left>6.561666cm</Left>
+								<Value>=Fields!BIRTHDAY.Value</Value>
+								<Style>
+									<Calendar>Japanese</Calendar>
+									<Format>dd</Format>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+								</Style>
+								<Top>6.773333cm</Top>
+								<Width>4.4383cm</Width>
+								<ZIndex>2</ZIndex>
+							</Textbox>
+							<Textbox Name="TextBox5">
+								<DataElementName>TextBox2</DataElementName>
+								<Height>0.75cm</Height>
+								<Left>6.6cm</Left>
+								<Value>=Fields!BIRTHDAY.Value</Value>
+								<Style>
+									<Calendar>Japanese</Calendar>
+									<Format>ddd</Format>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+								</Style>
+								<Top>8.2cm</Top>
+								<Width>4.4cm</Width>
+								<ZIndex>2</ZIndex>
+							</Textbox>
+							<Textbox Name="TextBox6">
+								<Height>0.75cm</Height>
+								<Left>11.2cm</Left>
+								<Value>年</Value>
+								<Style>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+								</Style>
+								<Top>3.836458cm</Top>
+								<Width>1.4cm</Width>
+								<ZIndex>3</ZIndex>
+							</Textbox>
+							<Textbox Name="TextBox7">
+								<DataElementName>TextBox6</DataElementName>
+								<Height>0.75cm</Height>
+								<Left>11.2cm</Left>
+								<Value>月</Value>
+								<Style>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+								</Style>
+								<Top>5.132916cm</Top>
+								<Width>1.4cm</Width>
+								<ZIndex>3</ZIndex>
+							</Textbox>
+							<Textbox Name="TextBox8">
+								<DataElementName>TextBox6</DataElementName>
+								<Height>0.75cm</Height>
+								<Left>11.2cm</Left>
+								<Value>日</Value>
+								<Style>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+								</Style>
+								<Top>6.773333cm</Top>
+								<Width>1.4cm</Width>
+								<ZIndex>3</ZIndex>
+							</Textbox>
+							<Textbox Name="TextBox9">
+								<DataElementName>TextBox6</DataElementName>
+								<Height>0.75cm</Height>
+								<Left>11.2cm</Left>
+								<Value>曜日</Value>
+								<Style>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+								</Style>
+								<Top>8.2cm</Top>
+								<Width>1.4cm</Width>
+								<ZIndex>3</ZIndex>
+							</Textbox>
+						</ReportItems>
+						<Style />
+					</Page>
+				</Pages>
+				<DataSetName>DataSet1</DataSetName>
+			</FixedPage>
+		</ReportItems>
+		<Style />
+	</Body>
+	<BottomMargin>2.5cm</BottomMargin>
+	<LeftMargin>2.5cm</LeftMargin>
+	<PageHeight>29.7cm</PageHeight>
+	<PageWidth>21cm</PageWidth>
+	<RightMargin>2.5cm</RightMargin>
+	<TopMargin>2.5cm</TopMargin>
+	<Width>21cm</Width>
+	<DataSources>
+		<DataSource Name="DataSource1">
+			<ConnectionProperties>
+				<ConnectString>DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey;DBNAME=NEWDB.fdb;CLIENT={C:\Program Files (x86)\Firebird\Firebird_3_0\fbclient.dll}</ConnectString>
+				<DataProvider>ODBC</DataProvider>
+			</ConnectionProperties>
+		</DataSource>
+	</DataSources>
+	<DataSets>
+		<DataSet Name="DataSet1">
+			<Fields>
+				<Field Name="ID">
+					<DataField>ID</DataField>
+				</Field>
+				<Field Name="NAME">
+					<DataField>NAME</DataField>
+				</Field>
+				<Field Name="AGE">
+					<DataField>AGE</DataField>
+				</Field>
+				<Field Name="BIRTHDAY">
+					<DataField>BIRTHDAY</DataField>
+				</Field>
+			</Fields>
+			<Query>
+				<CommandText>select * from USERS</CommandText>
+				<DataSourceName>DataSource1</DataSourceName>
+			</Query>
+		</DataSet>
+	</DataSets>
+</Report>
